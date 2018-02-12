@@ -1,0 +1,301 @@
+body {
+    |margin: 0;
+    padding: 0;
+    
+    
+}
+.header {
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    
+}
+.header .heading {
+    width: 49%;
+    margin-top: 160px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left; 
+    border-right: 2px solid #ddd; 
+
+}
+.header .heading p {
+    width: 50%;
+}
+.header .heading p span {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.header .heading p span:hover{
+    color: #00FF7F;
+    cursor: pointer;
+}
+.header .right {
+    width: 40%;
+    float: left;
+    margin-top: 160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:5%; 
+
+}
+.header .right p {
+    width: 70%;
+    font-size: 25px;
+    color: darkgrey;
+
+
+}
+.header .right button{
+    background: none;
+    background-color: #7FFFD4;
+    color: darkgrey;
+    border-radius: 50px;
+    width: 180px;  
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    outline: 0;
+    font-size: 20px;
+}
+.monga {
+    margin: 40px 0px 40px 0px;
+    margin-bottom: 50px;
+    /*background-color: aqua;*/
+    position: relative;
+}
+   
+}
+.monga .content {
+    width: 50%;
+    padding: 0px 20px 0px 0px;
+    float: left;
+    background-color: #00FF7F;
+    
+}
+
+.monga .content h2{
+   color: dimgrey;
+   font-weight: bold;
+
+   
+}
+.monga .content p {
+    text-transform: lowercase;
+    line-height: 1.8;
+    color: dimgray;
+    width: 90%;
+    
+}
+
+.monga .content button{
+    border: 0;
+    background: none;
+    padding: 15px;
+    background-color: peachpuff;
+    border-radius: 30px;
+    width: 150px;
+    text-transform: uppercase;
+    outline: 0;
+}
+.monga  .content {
+    border-right: 2px solid #ddd;
+    width: 50%;
+}
+.monga .content button:hover{
+    background-color: #ddd;
+    border: 1px solid #000;
+}
+.monga .leftside {
+    /*padding: 30px 30px 0px 30px;*/
+    /*margin-left: 30px; */
+    width: 40%;
+    float: left;
+    visibility: hidden;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+.monga .leftside i {
+    padding-right: 10px;
+    color: #00FF7F;
+    font-size: 20px;
+}
+.monga .leftside p {
+    color:  dimgrey;
+}
+.part
+{
+    background-color:#F8F8FF;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    overflow: hidden;
+
+}
+.part .parts img {
+    width: 49%;
+    float: left;
+}
+.part .parts .prepart {
+    float: right;
+    width: 47%;
+    padding-top: 50px;
+}
+.part .parts .prepart h2 {
+    color: #777;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.part .parts .prepart p {
+    color: #888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.part .parts .prepart button {
+    background-color: #fff;
+    border: 0;
+    width: 180px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: 0;
+    font-weight: bold;
+    color: #777;
+
+}
+.part .parts .prepart button:hover {
+    background-color: #ddd;
+    border: 0;
+}
+.part3 {
+    /*border: 1px solid #000;*/
+    margin: 30px 0px 15px 0px;
+    height: auto;
+}
+.part3 .leftform {
+    /*background-color: #ddd;*/
+    float: left;
+    width: 50%;
+    margin-top: 30px; 
+    border-right: 1px solid #888;
+}
+.part3 .leftform h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: darkslategrey;
+    font-size: 24px;
+}
+.part3 .leftform p {
+    color: #888;
+    line-height: 1.9;
+    font-weight: bold;
+    
+}
+.part3 .leftform input {
+    width: 250px;
+    height: 35px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    outline: 0;
+    margin-top: 40px;
+
+}
+.part3 .leftform textarea 
+{
+    width: 505px;
+    padding-left: 5px;
+    outline: 0;
+}
+.part3 .leftform button {
+    background: 0;
+    border: 0;
+    background-color: #ddd;
+    color:  #777;
+    width: 150px;
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 10px
+}
+.part3 .leftform button:hover 
+{
+    border: 1px solid #777;
+    background: 0;
+}
+.part3 .rightlinks {
+    /*background-color: #888;*/
+    width: 40%;
+    float: left;
+    margin-top: 45px;
+    line-height: 2.5;
+}
+.part3 .rightlinks i {
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #C71585;
+}
+.part3 .rightlinks p {
+    color: 	#A9A9A9;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.overlay {
+    width: 500px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    transform: scale(0);
+    transition: 0.5s;
+    position: fixed;
+    top: 124px;
+    left: 406px;
+    margin: auto;
+
+}
+.overlay a {
+    padding-top: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    /*display: block;*/
+
+}
+/*.overlay a:hover {
+    color: #fff;*/
+}
+.overlay .close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 60px;
+}
+.overlay p {
+    text-align: center;
+    padding: 120px;
+    font-size: 40px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #E6E6FA;
+}
+.footer .par {
+    text-align: center;
+    padding-top: 40px;
+
+}
